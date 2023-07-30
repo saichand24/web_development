@@ -49,7 +49,7 @@ border: 1px solid white;
 }
 /* navbar */
 /* home content */
-#home{
+/*#home{
   width: 100%;
   height: 90vh;
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bc3.png);
@@ -57,10 +57,18 @@ border: 1px solid white;
   background-size: cover;
   background-position: 80%;
   font-family: 'Roboto', sans-serif;
-}
+} */
+
 .content{
 padding-top: 210px;
 margin-left: 56px;
+}
+.imge{
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
 }
 .content h3{
 font-size: 50px;
@@ -70,6 +78,7 @@ color: white;
 margin-top: 10px;
 color: white;
 }
+
 #btn{
 width: 150px;
 height: 36px;
@@ -85,6 +94,7 @@ cursor: pointer;
 background: #bd6dff;
 color: white;
 }
+
 /* home content */
 
 
@@ -353,6 +363,7 @@ width: 200px;
 height: 36px; 
 border: none;
 background: #b2744c;
+
 color: white;
 font-weight: bold;
 margin-top: 30px;
@@ -361,7 +372,7 @@ cursor: pointer;
 #col{
 width: 40%;
 height: 56vh;
-background: black;
+background: rgb(0, 18, 98);
 margin-top: 78px;
 }
 .contact h1{
